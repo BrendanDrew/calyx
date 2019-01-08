@@ -28,18 +28,5 @@ tox virtual environments.
 
   .. code-block:: bash
      
-     tox -e 'py35-{pretty-print,lint}'
+     tox -e 'py36-{pretty-print,lint}'
 
-# Run the quick tests:
-
-  .. code-block:: bash
-
-     tox -e 'py35-quicktest'
-
-# Run the full test suite
-
-  .. code-block:: bash
-
-     tox -e py35-fulltest
-
-     

@@ -1,0 +1,10 @@
+pytest
+pytest-cov
+pytest-eradicate
+pytest-flakes
+pytest-incremental
+pytest-pep8
+pytest-remove-stale-bytecode
+pytest-stepwise
+pytest-xdist
+pytest-sugar

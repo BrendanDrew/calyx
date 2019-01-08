@@ -1,0 +1,6 @@
+  include *.toml
+  include *.txt
+  include tox.ini
+  recursive-include apps *.py
+  recursive-include calyx *.py
+  recursive-include requirements *.txt
