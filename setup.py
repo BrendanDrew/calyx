@@ -50,11 +50,11 @@ setup(
         'Topic :: Scientific/Engineering :: Mathematics',
     ],
 
-    packages=['calyx'],
+    packages=find_packages(include=['calyx']),
 
-    entry_points = {
+    entry_points={
         'console_scripts': [
-            'simulate_calibration_input=apps.simulate_calibration_input:main',
+            'simulate_calibration_input=calyx.apps.simulate_calibration_input:main',
         ]
     },
 

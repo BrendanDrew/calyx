@@ -3,3 +3,9 @@
 venv/*
 .tox/*
 .idea
+.tox
+.coverage
+cov.xml
+test_results.html
+calyx.egg-info*
+coverage_html*
